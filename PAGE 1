@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HERMAPRO - Expertos en Herrería</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1c1c1c;
+            color: #f5f5f5;
+        }
+        header {
+            background-color: #333;
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 50px;
+        }
+        header img {
+            height: 50px;
+        }
+        nav a {
+            color: #f5f5f5;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ffa500;
+        }
+        .hero {
+            background: url('blob:https://web.whatsapp.com/341c57f7-fe3b-4fe4-9af5-7adbc2fe5791') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #ffa500;
+        }
+        .hero h1 {
+            font-size: 50px;
+        }
+        .section {
+            padding: 50px;
+            background-color: #2b2b2b;
+            margin: 20px 0;
+        }
+        .section h2 {
+            color: #ffa500;
+        }
+        .section p {
+            font-size: 18px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery img {
+            width: calc(33.333% - 10px);
+            border: 3px solid #ffa500;
+        }
+        footer {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://raw.githubusercontent.com/Benito2303/hermapro-logo/main/HERMAPRO.jpg" alt="HERMAPRO Logo">
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-nosotros">Sobre Nosotros</a>
+            <a href="#nuestros-servicios">Nuestros Servicios</a>
+            <a href="#galeria">Galería</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <div class="hero" id="inicio">
+        <h1>Bienvenidos a HERMAPRO</h1>
+    </div>
+
+    <div class="section" id="sobre-nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>En HERMAPRO somos especialistas en herrería, ofreciendo soluciones de alta calidad para celosías y trabajos para maquiladoras. Con años de experiencia en el sector, garantizamos profesionalismo y excelencia en cada proyecto.</p>
+    </div>
+
+    <div class="section" id="nuestros-servicios">
+        <h2>Nuestros Servicios</h2>
+        <p>Nos especializamos en la creación de celosías personalizadas y una amplia gama de trabajos de herrería para maquiladoras. Ya sea para decoración, seguridad o funcionalidad, nuestras celosías están diseñadas para satisfacer tus necesidades específicas.</p>
+        <p>Tipos de trabajos:</p>
+        <ul>
+            <li>Celosías decorativas</li>
+            <li>Celosías de seguridad</li>
+            <li>Trabajos de herrería para estructuras industriales</li>
+            <li>Proyectos personalizados</li>
+        </ul>
+    </div>
+
+    <div class="section gallery" id="galeria">
+        <h2>Galería</h2>
+        <img src="https://raw.githubusercontent.com/Benito2303/hermapro-logo/main/trabajo.jpg" alt="Trabajo 1">
+        <img src="https://raw.githubusercontent.com/Benito2303/hermapro-logo/main/WhatsApp%20Image%202024-05-23%20at%208.42.01%20PM%20(1).jpeg" alt="Trabajo 2">
+        <img src="https://raw.githubusercontent.com/Benito2303/hermapro-logo/main/WhatsApp%20Image%202024-05-23%20at%208.42.01%20PM%20(2).jpeg" alt="Trabajo 3">
+<img src="https://raw.githubusercontent.com/Benito2303/hermapro-logo/main/WhatsApp%20Image%202024-05-23%20at%208.42.01%20PM.jpeg" alt="Trabajo 4">
+<img src="https://raw.githubusercontent.com/Benito2303/hermapro-logo/main/WhatsApp%20Image%202024-05-23%20at%208.43.19%20PM.jpeg" alt="Trabajo 5">       
+	   <!-- Añadir más imágenes según sea necesario -->
+    </div>
+
+    <div class="section" id="contacto">
+        <h2>Contacto</h2>
+        <p>Para más información o solicitar un presupuesto, contáctanos a través de:</p>
+        <p>Email: hemapro.jrz@gmail.com</p>
+        <p>Teléfono: +52 656 149 8353</p>
+        <p>Dirección:  Ciudad Juarez, Chihuahua, Mexico</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 HERMAPRO. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
